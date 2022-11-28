@@ -1,12 +1,1138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Visapass</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+
+    <div id="wrapper">
+
+
+        <!-- Header -->
+        <header>
+
+            <div class="top-bar">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="top-bar-left">
+                                <span>Opening Time :</span> 8:30 AM - 9:30 PM
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="top-bar-right">
+                                <div class="header-location">
+                                    <i class="fa-solid fa-location-dot"></i><a href="contact.html">Our Location</a>
+                                </div>
+                                <div class="header-language">
+                                    <select class="form-select">
+                                        <option data-display="English">English</option>
+                                        <option value="1">Bangla</option>
+                                        <option value="2">Arbi</option>
+                                        <option value="3">China</option>
+                                        <option value="4">Turky</option>
+                                    </select>
+                                </div>
+                                <div class="top-button">
+                                    <a href="contact.html">Apply Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-header">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xxl-2 col-xl-2 col-lg-2 col-8">
+                            <div class="header-logo">
+                                <img src="assets/logo.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xxl-7 col-xl-7 col-lg-7 col-4">
+                            <div class="nav-bar">
+                                <nav>
+                                    <ul>
+                                        <li>
+                                            <a href="">
+                                                <span>Home</span>
+                                            </a>
+                                        </li>
+                                        <li class="dropmenu">
+                                            <a href="">
+                                                <span>Coaching</span><i class="fa-solid fa-chevron-down"></i>
+                                            </a>
+                                            <div class="drop-content">
+                                                <ul>
+                                                    <li><a href="">Coaching Details</a></li>
+                                                    <li><a href="">Coaching Details</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="dropmenu">
+                                            <a href="">
+                                                <span>Services</span><i class="fa-solid fa-chevron-down"></i>
+                                            </a>
+                                            <div class="drop-content">
+                                                <ul>
+                                                    <li><a href="">Coaching Details</a></li>
+                                                    <li><a href="">Coaching Details</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span>Pages</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span>News</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <span>Contact</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <i class="fa-solid fa-magnifying-glass"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="hamburger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-3 col-lg-3">
+                            <div class="chat-btn">
+                                <div class="chat-img">
+                                    <img src="assets/chatting.png" alt="">
+                                </div>
+                                <div class="chat-text">
+                                    <span class="chat-head">Contact Us</span>
+                                    <span class="chat-val">(555) 5802 3059</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="mob_nav_menu">
+                    <div class="close_mob_nav">
+
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <ul>
+                        <li class="mob_nav">
+                            <input type="checkbox" id="submenu1">
+                            <div class="mob_nav_head active">
+                                <a href="">Home</a>
+                                <label for="submenu1">
+                                    <img src="assets/chevron-right-svgrepo-com.svg" alt="">
+                                </label>
+                            </div>
+                            <div class="mob_submenu">
+                                <ul>
+                                    <li>
+                                        Plastic
+                                    </li>
+                                    <li>
+                                        Wooden
+                                    </li>
+                                    <li>
+                                        Portfolio
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="mob_nav">
+                            <input type="checkbox" id="submenu2">
+                            <div class="mob_nav_head">
+                                <a href="">Couching</a>
+                                <label for="submenu2">
+                                    <i class="fa-solid fa-plus"></i>
+                                </label>
+                            </div>
+                            <div class="mob_submenu">
+                                <ul>
+                                    <li>
+                                        Couching 1
+                                    </li>
+                                    <li>
+                                        Couching 2
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="mob_nav">
+                            <input type="checkbox" id="submenu3">
+                            <div class="mob_nav_head">
+                                <a href="">Services</a>
+                                <label for="submenu3">
+                                    <i class="fa-solid fa-plus"></i>
+                                </label>
+                            </div>
+                            <div class="mob_submenu">
+                                <ul>
+                                    <li>
+                                        Services 1
+                                    </li>
+                                    <li>
+                                        Services 2
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="mob_nav">
+                            <!-- <input type="checkbox" id="submenu4"> -->
+                            <div class="mob_nav_head">
+                                <a href="">Pages</a>
+                                <!-- <label for="submenu4">
+                                    <i class="fa-solid fa-plus"></i>
+                                </label> -->
+                            </div>
+                        </li>
+                        <li class="mob_nav">
+                            <!-- <input type="checkbox" id="submenu5"> -->
+                            <div class="mob_nav_head">
+                                <a href="">News</a>
+                                <!-- <label for="submenu5">
+                                    <i class="fa-solid fa-plus"></i>
+                                </label> -->
+                            </div>
+                        </li>
+                        <li class="mob_nav">
+                            <div class="mob_nav_head">
+                                <a href="">Contact</a>
+                                <!-- <label for="submenu7">
+                                    <img src="assets/chevron-right-svgrepo-com.svg" alt="">
+                                </label> -->
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- Slider -->
+        <section class="slider-hero">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="hero-slider-full slider-1">
+                        <div class="bg-overlay"></div>
+                        <div class="container">
+                            <div class="hero-slider-text">
+                                <div class="sm-head">Effective Visa Solution</div>
+                                <div class="main-head">Visa & Immigration <br>Consultation</div>
+                                <p>Our professionalism, honesty, sincerity & dedication to client service has
+                                    helped
+                                    our clients to fulfill their wishes </p>
+                                <a href="" class="prm-btn"><span>Book Now</span><i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="hero-slider-full slider-2">
+                        <div class="bg-overlay"></div>
+                        <div class="container">
+                            <div class="hero-slider-text">
+                                <div class="sm-head">Effective Visa Solution</div>
+                                <div class="main-head">Visa & Immigration <br>Consultation</div>
+                                <p>Our professionalism, honesty, sincerity & dedication to client service has
+                                    helped
+                                    our clients to fulfill their wishes </p>
+                                <a href="" class="prm-btn"><span>Book Now</span><i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Services -->
+        <div class="services-strip">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 col-12">
+                        <a href="">
+                            <div class="serv-box">
+                                <div class="serv-icon">
+                                    <i class="fa-brands fa-cc-visa"></i>
+                                </div>
+                                <div class="serv-text">
+                                    Online Visa Application
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-12">
+                        <a href="">
+                            <div class="serv-box">
+                                <div class="serv-icon">
+                                    <i class="fa-solid fa-clipboard"></i>
+                                </div>
+                                <div class="serv-text">
+                                    Visa Information
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-12">
+                        <a href="">
+                            <div class="serv-box">
+                                <div class="serv-icon">
+                                    <i class="fa-solid fa-users-rays"></i>
+                                </div>
+                                <div class="serv-text">
+                                    Immigration Resources
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-12">
+                        <a href="">
+                            <div class="serv-box">
+                                <div class="serv-icon">
+                                    <i class="fa-solid fa-passport"></i>
+                                </div>
+                                <div class="serv-text">
+                                    Online Passport Application
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Featured Services -->
+        <div class="services feat-serv">
+            <div class="container">
+                <div class="sub-head">Featured Services</div>
+                <div class="sec-head">We Provide Visa & Immigration Service From Experienced Lawyers</div>
+
+                <div class="row py-5">
+
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="feat-serv-card">
+                            <div class="feat-img bg-src" img-src="assets/feat-1.jpg">
+                                <!-- <img src="assets/feat-1.jpg" alt=""> -->
+                            </div>
+                            <div class="feat-text">
+                                <div class="feat-head">Business Visa</div>
+                                <p>We helped with other family based employment based and investment based Immigration.
+                                </p>
+                                <a href="">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="feat-serv-card">
+                            <div class="feat-img bg-src" img-src="assets/feat-2.jpg">
+                                <!-- <img src="assets/feat-2.jpg" alt=""> -->
+                            </div>
+                            <div class="feat-text">
+                                <div class="feat-head">Student Visa</div>
+                                <p>We helped with other family based employment based and investment based Immigration.
+                                </p>
+                                <a href="">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="feat-serv-card">
+                            <div class="feat-img bg-src" img-src="assets/feat-3.jpg">
+                                <!-- <img src="assets/feat-3.jpg" alt=""> -->
+                            </div>
+                            <div class="feat-text">
+                                <div class="feat-head">Work & Job Visa</div>
+                                <p>We helped with other family based employment based and investment based Immigration.
+                                </p>
+                                <a href="">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="feat-serv-card">
+                            <div class="feat-img bg-src" img-src="assets/feat-4.jpg">
+                                <!-- <img src="assets/feat-4.jpg" alt=""> -->
+                            </div>
+                            <div class="feat-text">
+                                <div class="feat-head">Tourist & Visitor Visa</div>
+                                <p>We helped with other family based employment based and investment based Immigration.
+                                </p>
+                                <a href="">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Scholarship -->
+        <div class="scholarship">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-6">
+                        <div class="scholar-left">
+                            <img src="assets/scholarship-left.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-6 col-12 align-self-center">
+                        <div class="scholar-text">
+                            <div class="scholar-head">20+ Best Universities Scholarship Programs From 20 Countries</div>
+                            <p>We also help with other family based employment based and investment based Immigration.
+                                Praesent eui vel aliquam nisl efficitur eu.</p>
+                            <div class="flags">
+                                <img src="assets/f-1.png" alt="">
+                                <img src="assets/f-2.png" alt="">
+                                <img src="assets/f-3.png" alt="">
+                                <img src="assets/f-4.png" alt="">
+                                <img src="assets/f-5.png" alt="">
+                            </div>
+                            <p>Validity From : 05 March 2021 - 25 Jan 2022</p>
+                            <a href="" class="prm-btn"><span>Apply Now</span><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About -->
+        <div class="about-sec">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="about-text">
+                            <div class="sub-head">
+                                About Visapass
+                            </div>
+                            <div class="sec-head">
+                                <span class="org-clr">25+</span> Years of Your Trust and Recommendation
+                            </div>
+                            <p>ISO Certified & Best Immigration Award 2018 Winner</p>
+                            <p class="grey-text">For the last 35 years, We have helped students, business persons,
+                                tourists, clients with medical needs to acquire U.S. visas. Besides, we also help with
+                                other family based, employment based & investment based Immigration. Aenean vestibulum
+                                ornare sapien, at pharetra massa consectetur et. Aliquam sit amet ipsum</p>
+                            <a href="" class="prm-btn"><span>Read More</span><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-img">
+                            <img src="assets/about-img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Stats -->
+        <div class="stats">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                        <div class="stat-box">
+                            <div class="stat-head">25K+</div>
+                            <div class="stat-text">Happy Clients & Student</div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                        <div class="stat-box">
+                            <div class="stat-head">80+</div>
+                            <div class="stat-text">Countries Affiliation</div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                        <div class="stat-box">
+                            <div class="stat-head">360</div>
+                            <div class="stat-text">Top University Partner</div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                        <div class="stat-box">
+                            <div class="stat-head">23K+</div>
+                            <div class="stat-text">Visa & Immigration</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Countries -->
+        <div class="countries-header">
+            <div class="container">
+                <div class="sub-head">Popular Countries</div>
+                <div class="sec-head">Select Your Favorite Country To Apply Visa</div>
+            </div>
+        </div>
+        <div class="countries-slider">
+            <div class="container">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="cnt-box bg-src" img-src="assets/c-1.jpg">
+                            <div class="add-btn">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                        <p>United States</p>
+                    </div>
+                    <div class="item">
+                        <div class="cnt-box bg-src" img-src="assets/c-2.jpg">
+                            <div class="add-btn">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                        <p>Switzerland</p>
+                    </div>
+                    <div class="item">
+                        <div class="cnt-box bg-src" img-src="assets/c-3.jpg">
+                            <div class="add-btn">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                        <p>United Kingdom</p>
+                    </div>
+                    <div class="item">
+                        <div class="cnt-box bg-src" img-src="assets/c-4.jpg">
+                            <div class="add-btn">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                        <p>New Zealand</p>
+                    </div>
+                    <div class="item">
+                        <div class="cnt-box bg-src" img-src="assets/c-2.jpg">
+                            <div class="add-btn">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                        </div>
+                        <p>Switzerland</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Global Visa -->
+        <div class="global-visa">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="global-text">
+                            <div class="sub-head">Global Visa Business</div>
+                            <div class="sec-head">We Work Globally With Partners In 80+ Popular Countries</div>
+                            <p>We have helped students, business persons, tourists, clients with medical needs to
+                                acquire U.S. visas. Besides, we also help with other family and provide counseling
+                                services for immigration</p>
+                            <div class="input-box">
+                                <input type="text" placeholder="Enter your NID No">
+                                <a href="" class="prm-btn"><span>Check Availablity</span><i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="global-img">
+                            <img src="assets/map.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Course Banner -->
+        <div class="course-banner">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-12">
+                        <img class="course-img" src="assets/cl-1.png" alt="">
+                    </div>
+                    <div class="col-lg-6 col-md-8">
+                        <p>Get a skilled job in abroad taking our technical courses</p>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <a href="" class="prm-btn"><span>Apply Now</span><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Agents -->
+        <div class="agents">
+            <div class="container">
+                <div class="sub-head">Authorized Agents</div>
+                <div class="sec-head">
+                    Our Agents Who are
+                    Dedicatedly Working With Us
+                </div>
+
+
+                <div class="row py-5">
+
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="feat-serv-card">
+                            <div class="feat-img bg-src" img-src="assets/t-1.jpg">
+                                <!-- <img src="assets/feat-1.jpg" alt=""> -->
+                                <div class="social-icons">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-youtube"></i>
+                                </div>
+                            </div>
+                            <div class="feat-text">
+                                <div class="feat-head">MARIDA TOHAMAN</div>
+                                <p>CEO, Visapass</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="feat-serv-card">
+                            <div class="feat-img bg-src" img-src="assets/t-2.jpg">
+                                <!-- <img src="assets/feat-2.jpg" alt=""> -->
+                                <div class="social-icons">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-youtube"></i>
+                                </div>
+                            </div>
+                            <div class="feat-text">
+                                <div class="feat-head">DANIEL HASMASS</div>
+                                <p>Sr. Consultant</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="feat-serv-card">
+                            <div class="feat-img bg-src" img-src="assets/t-3.jpg">
+                                <!-- <img src="assets/feat-3.jpg" alt=""> -->
+                                <div class="social-icons">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-youtube"></i>
+                                </div>
+                            </div>
+                            <div class="feat-text">
+                                <div class="feat-head">NARAYAN KAMORA</div>
+                                <p>Senior Lawyer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="feat-serv-card">
+                            <div class="feat-img bg-src" img-src="assets/t-4.jpg">
+                                <!-- <img src="assets/feat-4.jpg" alt=""> -->
+                                <div class="social-icons">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-youtube"></i>
+                                </div>
+                            </div>
+                            <div class="feat-text">
+                                <div class="feat-head">MARIDA TOHAMAN</div>
+                                <p>Manager</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+
+        <!-- Partner Companies -->
+        <div class="partner-companies">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="sub-head">Our Partners</div>
+                        <div class="sec-head">Our Partner Companies
+                            And Institutions</div>
+                        <p>We have helped students, business persons, tourists, clients with medical needs to acquire
+                            U.S. visas. Besides, we also help with other family and provide counseling services for
+                            immigration</p>
+                        <a href="" class="prm-btn"><span>Apply Now</span><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row g-0 mt-2">
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                                <div class="partner-img">
+                                    <a href="partners.html"><img src="assets/pt-1.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                                <div class="partner-img">
+                                    <a href="partners.html"><img src="assets/pt-2.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                                <div class="partner-img">
+                                    <a href="partners.html"><img src="assets/pt-3.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                                <div class="partner-img">
+                                    <a href="partners.html"><img src="assets/pt-4.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                                <div class="partner-img">
+                                    <a href="partners.html"><img src="assets/pt-5.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                                <div class="partner-img">
+                                    <a href="partners.html"><img src="assets/pt-6.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Testimonials -->
+        <div class="testimonials">
+            <div class="container">
+                <div class="sub-head">Testionials</div>
+                <div class="sec-head">What Clients Say About Us and
+                    Our Services</div>
+
+
+
+                <div class="test-slider mt-5">
+                    <div class="container">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="test-box">
+                                    <div class="test-info d-flex align-items-center">
+                                        <div class="test-img">
+                                            <img src="assets/t-3.jpg" alt="">
+                                        </div>
+                                        <div class="test-author">
+                                            <h4>Jonathon Deoya</h4>
+                                            <span>Student</span>
+                                        </div>
+                                        <div class="test-quotes">
+                                            <i class="fa-solid fa-quote-left"></i>
+                                        </div>
+                                    </div>
+                                    <div class="test-content mt-3">
+                                        <p>Travellers from countries categorized under the high-risk list who are
+                                            eligible to enter Germany, aged 12 and older, are obliged to present their
+                                            vaccination certificates</p>
+                                        <div class="test-review">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li>(Switzerland Visa)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="test-box">
+                                    <div class="test-info d-flex align-items-center">
+                                        <div class="test-img">
+                                            <img src="assets/t-4.jpg" alt="">
+                                        </div>
+                                        <div class="test-author">
+                                            <h4>Jonathon Deoya</h4>
+                                            <span>Student</span>
+                                        </div>
+                                        <div class="test-quotes">
+                                            <i class="fa-solid fa-quote-left"></i>
+                                        </div>
+                                    </div>
+                                    <div class="test-content mt-3">
+                                        <p>Travellers from countries categorized under the high-risk list who are
+                                            eligible to enter Germany, aged 12 and older, are obliged to present their
+                                            vaccination certificates</p>
+                                        <div class="test-review">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li>(Switzerland Visa)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="test-box">
+                                    <div class="test-info d-flex align-items-center">
+                                        <div class="test-img">
+                                            <img src="assets/t-2.jpg" alt="">
+                                        </div>
+                                        <div class="test-author">
+                                            <h4>Jonathon Deoya</h4>
+                                            <span>Student</span>
+                                        </div>
+                                        <div class="test-quotes">
+                                            <i class="fa-solid fa-quote-left"></i>
+                                        </div>
+                                    </div>
+                                    <div class="test-content mt-3">
+                                        <p>Travellers from countries categorized under the high-risk list who are
+                                            eligible to enter Germany, aged 12 and older, are obliged to present their
+                                            vaccination certificates</p>
+                                        <div class="test-review">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li>(Switzerland Visa)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="test-box">
+                                    <div class="test-info d-flex align-items-center">
+                                        <div class="test-img">
+                                            <img src="assets/t-1.jpg" alt="">
+                                        </div>
+                                        <div class="test-author">
+                                            <h4>Jonathon Deoya</h4>
+                                            <span>Student</span>
+                                        </div>
+                                        <div class="test-quotes">
+                                            <i class="fa-solid fa-quote-left"></i>
+                                        </div>
+                                    </div>
+                                    <div class="test-content mt-3">
+                                        <p>Travellers from countries categorized under the high-risk list who are
+                                            eligible to enter Germany, aged 12 and older, are obliged to present their
+                                            vaccination certificates</p>
+                                        <div class="test-review">
+                                            <ul>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li><i class="fa-solid fa-star"></i></li>
+                                                <li>(Switzerland Visa)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <!-- Blog -->
+        <div class="blog">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6">
+                        <div class="sub-head">
+                            Recent Blog
+                        </div>
+                        <div class="sec-head">
+                            Recent Updates of Visa <br> And Immagration
+                        </div>
+                    </div>
+                    <div class="col-xxl-6 col-xl-6 col-lg-6">
+                        <div class="blog-right-text">
+                            <p>We have helps students business persons tourists clients with medical needs to acquire
+                                U.s visas. Besides we also help with other family and provide counseeling services for
+                                immegration</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row mt-5">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="feat-serv-card">
+                            <div class="feat-img bg-src" img-src="assets/blog1.jpg">
+                                <!-- <img src="assets/feat-1.jpg" alt=""> -->
+                            </div>
+                            <div class="blog-meta">
+                                <span> <i class="fa-regular fa-calendar"></i><a
+                                        href="news-details.html">visapass</a></span>
+                                <span> <i class="far fa-user"></i> 02 feb 2018 </span>
+                                <span><i class="far fa-comments"></i><a href="news-details.html">(36)</a></span>
+                            </div>
+                            <div class="feat-text">
+                                <div class="feat-head">Business Visa</div>
+                                <p>We helped with other family based employment based and investment based Immigration.
+                                </p>
+                                <a href="">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="feat-serv-card">
+                            <div class="feat-img bg-src" img-src="assets/blog2.jpg">
+                                <!-- <img src="assets/feat-1.jpg" alt=""> -->
+                            </div>
+                            <div class="blog-meta">
+                                <span> <i class="fa-regular fa-calendar"></i><a
+                                        href="news-details.html">visapass</a></span>
+                                <span> <i class="far fa-user"></i> 02 feb 2018 </span>
+                                <span><i class="far fa-comments"></i><a href="news-details.html">(36)</a></span>
+                            </div>
+                            <div class="feat-text">
+                                <div class="feat-head">Business Visa</div>
+                                <p>We helped with other family based employment based and investment based Immigration.
+                                </p>
+                                <a href="">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="feat-serv-card">
+                            <div class="feat-img bg-src" img-src="assets/blog3.jpg">
+                                <!-- <img src="assets/feat-1.jpg" alt=""> -->
+                            </div>
+                            <div class="blog-meta">
+                                <span> <i class="fa-regular fa-calendar"></i><a
+                                        href="news-details.html">visapass</a></span>
+                                <span> <i class="far fa-user"></i> 02 feb 2018 </span>
+                                <span><i class="far fa-comments"></i><a href="news-details.html">(36)</a></span>
+                            </div>
+                            <div class="feat-text">
+                                <div class="feat-head">Business Visa</div>
+                                <p>We helped with other family based employment based and investment based Immigration.
+                                </p>
+                                <a href="">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <!-- Footer -->
+        <footer class="footer-area footer-bg pt-95">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                        <div class="footer-about-1">
+                            <div class="footer-about-1-content">
+                                <div class="footer-logo footer-logo-3 mb-30">
+                                    <a href="#"><img src="assets/f-logo.png" alt=""></a>
+                                </div>
+                                <p class="mb-50">Sed perspiciatis unde omnis natus error voluptatem accusan doloreqe
+                                    laudantium totam aperiam eaque sipsa quae abillo inventore</p>
+                                <h4 class="footer-about-title mb-30">
+                                    Follow Us
+                                </h4>
+                                <ul class="social_links">
+                                    <li>
+                                        <a class="" href="#">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="" href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="" href="#">
+                                            <i class="fab fa-instagram"></i>
+
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="" href="#">
+                                            <i class="fab fa-pinterest-p"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="" href="#">
+                                            <i class="fab fa-pinterest-p"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-6">
+                        <div class="footer-widget footer-2 footer-btm-mobile ml-30">
+                            <h3 class="footer-sub-title mb-25">
+                                Quick Links
+                            </h3>
+                            <ul class="footer-menu-link">
+                                <li><a href="about.html">About Our Company</a></li>
+                                <li><a href="services.html">Latest Services</a></li>
+                                <li><a href="contact.html">Payment Type</a></li>
+                                <li><a href="about.html">Awards Winnings</a></li>
+                                <li><a href="partners.html">World Media Partner</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+                        <div class="footer-widget footer-3 footer-btm-mobile ml-50">
+                            <h3 class="footer-sub-title mb-25">
+                                Visa Information
+                            </h3>
+                            <ul class="footer-menu-link">
+                                <li><a href="partners.html">Visitor Visas</a></li>
+                                <li><a href="contact.html">Permanent Residence Visas</a></li>
+                                <li><a href="business-visa.html">Business Visas</a></li>
+                                <li><a href="business-visa.html">Working Holiday Visas</a></li>
+                                <li><a href="business-visa.html">Studying &amp; Training Visas</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+                        <div class="footer-widget footer-4 footer-btm-mobile ml-40">
+                            <h3 class="footer-sub-title mb-25">
+                                Get in Touch
+                            </h3>
+                            <ul class="footer-menu-link-info">
+                                <li><a href="tel:1587203692"><i class="fa-solid fa-phone"></i> <span> 1 587 203
+                                            692</span> </a></li>
+                                <li><a href="mailto:support@gmail.com"><i class="fa-sharp fa-solid fa-envelope"></i>
+                                        <span>support@gmail.com</span></a></li>
+                                <li><a href="contact.html"><i class="fa-solid fa-location-dot"></i> <span>250 Halderman
+                                            Rd,
+                                            West Alexandria, OH, 45381</span> </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <div class="footer-copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                        <div class="footer-copyright-home dis-none d-flex align-items-center theme-bg">
+                            <div class="footer-cpy-icon mr-10">
+                                <i class="fa-solid fa-headset"></i>
+                            </div>
+                            <div class="footer-cpy-call copy-right-cell">
+                                <span _msthash="1313936" _msttexthash="139620">Call - Or - SMS</span>
+                                <h5><a href="tel:+1878298023" _msthash="1591837" _msttexthash="89375">+1 878 298 023</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-8">
+                        <div class="row subscribe-top align-items-center">
+                            <div class="col-xxl-6 col-xl-6 col-lg-6">
+                                <h4 class="copyright-title" _msthash="1591629" _msttexthash="931632">
+                                    Get More Update Join Our Newsletters
+                                </h4>
+                            </div>
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 ">
+                                <div class="subscribe-footer">
+                                    <form action="#">
+                                        <input type="email" placeholder="Enter your email" _mstplaceholder="263692">
+                                        <button type="submit"><i class="fa-solid fa-long-arrow-right"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row copyright-botom-padding align-items-center">
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                                <div class="copyright-botom">
+                                    <p _msthash="1910415" _msttexthash="1174433">Copyright ©2021 <a href="#">
+                                            <span>BDevs</span></a>. All Rights Reserved</p>
+                                </div>
+                            </div>
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                                <div class="copyright-botom-right ">
+                                    <ul>
+                                        <li><a href="#" _msthash="2322736" _msttexthash="231452">Privacy Policy</a></li>
+                                        <li><a href="#" _msthash="2322866" _msttexthash="276978">Terms &amp;
+                                                Condition</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
